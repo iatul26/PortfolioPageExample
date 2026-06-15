@@ -83,7 +83,7 @@ The website supports the following project categories:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/editkaro-portfolio.git
+git clone https://github.com/iatul26/editkaro-portfolio.git
 ```
 
 ### 2. Navigate to Project Folder
