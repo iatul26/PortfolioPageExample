@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in | Professional Video Editing Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Editkaro<span>.in</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
+                <li><a href="#contact" class="btn-primary">Hire Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your Visual Storytelling</h1>
+            <p>Premium Social Media Marketing & Video Editing Agency. From fast-paced short-form content to cinematic documentaries, we bring your vision to life.</p>
+            <a href="#portfolio" class="btn-outline">View Portfolio <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Masterpieces</h2>
+                <p>Explore our diverse range of editing styles and formats.</p>
+            </div>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="short-form">Short-Form</button>
+                <button class="filter-btn" data-filter="long-form">Long-Form</button>
+                <button class="filter-btn" data-filter="gaming">Gaming</button>
+                <button class="filter-btn" data-filter="football">Football Edits</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+                <button class="filter-btn" data-filter="documentary">Documentary</button>
+                <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+                <button class="filter-btn" data-filter="anime">Anime</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Ready to create something amazing?</h2>
+            <p>Contact Editkaro.in today to scale your brand with high-retention video content.</p>
+            <a href="mailto:hello@editkaro.in" class="btn-primary">hello@editkaro.in</a>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Editkaro.in. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container" id="modalVideoContainer">
+                <h3 style="color: white; text-align: center; margin-top: 20%;">Video Player Simulation</h3>
+                <p style="color: #aaa; text-align: center;">In production, an iframe or HTML5 video tag will play here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
